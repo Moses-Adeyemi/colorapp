@@ -1,0 +1,23 @@
+body {
+    background: #eee;
+}
+
+section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    margin: 20px;
+}
+
+#colour-changer {
+    font-size: larger;
+    width: 95%;
+    height: 80vh;
+    background: #fff;
+    padding: 20px;
+    padding-top: 10px;
+    margin: 30px auto;
+    -webkit-transition: max-height cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    -moz-transition: max-height cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    transition: max-height 0.75;
+}
